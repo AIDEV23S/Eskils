@@ -1,7 +1,0 @@
-s1 = input('skriv en mening: ')
-print(f'antal tecken {len(s1)}')
-s1 = s1.strip()
-i = s1.find(' ')
-j = s1.rfind(' ')
-print('Första ordet: ', s1[0:i])
-print('Andra ordet: ', s1[j+1:])
